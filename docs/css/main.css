@@ -1,0 +1,20 @@
+body{
+    background-color:  #d9d0deff;
+}
+
+#hPrincipal{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-stretch:ultra-condensed;
+    padding-top: 10px;
+    border-bottom: 2px dashed;
+    
+}
+
+#pPrin{
+    padding-top: 10px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+
+}
