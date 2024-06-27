@@ -2,6 +2,24 @@ body{
     background-color:  #d9d0deff;
 }
 
+h2{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: #aa4465;
+    color: #ddffd9ff;
+    border-radius: 13px;
+}
+
+header{
+    background-image:url('../assets/wallpaper1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding: auto;
+} 
+
+
 #hPrincipal{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 50px;
@@ -10,11 +28,15 @@ body{
     font-stretch:ultra-condensed;
     padding-top: 10px;
     border-bottom: 2px dashed;
-    
+    font-weight: 600;
+
 }
 
-#pPrin{
-    padding-top: 10px;
-    font-family: "Atkinson Hyperlegible", sans-serif;
-
+.card-container {
+    display: flex;
+    gap: 1rem; /* Espacio entre las tarjetas */
+}
+.card {
+    flex: 1; /* Hace que las tarjetas se distribuyan equitativamente */
+    min-width: 10rem; /* Ancho mínimo para las tarjetas */
 }
