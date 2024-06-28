@@ -12,16 +12,17 @@ h2{
     text-align: center;
     background-color: #aa4465;
     color: #ddffd9ff;
-    border-radius: 13px;
+    border-radius: 12px;
     margin: 10px  10px 10px 10px ;
 }
 
 header{
-    background-image:url('../assets/wallpaper3.jpg');
+    background-image:url('../assets/wallpaper4.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
     padding: 10px 10px 10px 10px;
+    border-radius: 12px;
 } 
 
 
