@@ -16,30 +16,8 @@ h2{
     margin: 10px  10px 10px 10px ;
 }
 
-h2#mainSection{
-    background-color:#d9d0deff ;
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-#divMain{
-    position: relative;
-    background-color:#d9d0deff; /* Color de fondo del div */
-}
-
-#divMain::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 8px; /* Altura del borde */
-    background: linear-gradient(to right, #d9d0deff, #aa4465, #d9d0deff);
-
-}
-
 header{
-    background-image:url('../assets/wallpaper1.jpg');
+    background-image:url('../assets/wallpaper3.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
