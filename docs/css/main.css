@@ -38,20 +38,36 @@ header{
 
 }
 
-.card-container {
-    display: flex;
-    gap: 1rem; /* Espacio entre las tarjetas */
-    margin-top: 15px;
-    
-}
-
 .card {
-    flex: 1; /* Hace que las tarjetas se distribuyan equitativamente */
-    min-width: 10rem; /* Ancho mínimo para las tarjetas */
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: #F8F9F1;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 150px; 
-    object-fit: cover; 
+.card-content {
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+} 
+
+.card-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* background-image: linear-gradient(to left, #a03579, #83286c); */
+    border-radius: 13px;
+    text-align: center;
+    font-weight: 600;
+    color: #552538;
 }
+
+.card-description {
+    font-size: 1rem;
+}
+
+.responsive-img {
+    width: 100px; /* Establece el ancho deseado */
+    height: auto; /* Mantiene la proporción */
+  }
