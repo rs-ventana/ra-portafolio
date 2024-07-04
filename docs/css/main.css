@@ -1,3 +1,7 @@
+#navBar{
+    background-image:url('../assets/wallpaper4.jpg');
+}
+
 body{
     background-color:  #d9d0deff;
 }
@@ -6,18 +10,8 @@ body{
     margin-top: 20px;
 }
 
-h2{
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 500;
-    text-align: center;
-    background-color: #aa4465;
-    color: #ddffd9ff;
-    border-radius: 12px;
-    margin: 10px  10px 10px 10px ;
-}
-
 header{
-    background-image:url('../assets/wallpaper4.jpg');
+    background-image:url('../assets/wallpaper3.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
@@ -35,7 +29,33 @@ header{
     padding-top: 10px;
     border-bottom: 2px dashed;
     font-weight: 600;
+    color: #DCE1B7;
+}
 
+h2{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #aa4465;
+    color: #ddffd9ff;
+    border-radius: 12px;
+    margin: 10px  10px 10px 10px ;
+}
+
+.bi-stars {
+    font-size: 16px;
+}
+
+.bi-signpost-fill {
+    font-size: 16px;
+}
+
+h3{
+    font-size: 25px;
+    color: red;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .card {
@@ -50,13 +70,12 @@ header{
 }
 
 .card-content {
-    margin-left: 20px; /* Espacio entre la imagen y el texto */
+    margin-left: 20px; 
 } 
 
 .card-title {
     margin-bottom: 10px;
     margin-top: 10px;
-    /* background-image: linear-gradient(to left, #a03579, #83286c); */
     border-radius: 13px;
     text-align: center;
     font-weight: 600;
@@ -68,6 +87,53 @@ header{
 }
 
 .responsive-img {
-    width: 100px; /* Establece el ancho deseado */
-    height: auto; /* Mantiene la proporción */
+    width: 100px; 
+    height: auto; 
   }
+
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background: #D08AA1;
+    color: #DDFFD9;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(191, 95, 125, 1) 40.8%,
+      rgba(128, 51, 76, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
+a {
+    text-decoration: none;
+    color: #DDFFD9;
+    font-weight: 400;
+    font-size: medium;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
