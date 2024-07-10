@@ -3,7 +3,8 @@
 }
 
 body{
-    background-color:  #d9d0deff;
+    /*background-color:  #d9d0deff; */
+    background-color: #D9CFDE;
 }
 
 #principalCon{
@@ -22,25 +23,29 @@ header{
 
 #hPrincipal{
     font-family: "Atkinson Hyperlegible", sans-serif;
-    font-size: 50px;
+    font-size: 50px; /* h1*/
     text-align: center;
     font-style: normal;
     font-stretch:ultra-condensed;
     padding-top: 10px;
     border-bottom: 2px dashed;
     font-weight: 600;
-    color: #DCE1B7;
+    /*color: #DCE1B7; */
+    color: #F7F2F4;
 }
 
 h2{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 30px;
     font-weight: 500;
-    text-align: center;
     background-color: #aa4465;
+    /*background-image: linear-gradient(to right, #aa4465, #b6698c, #bf8cad, #caafc9, #d9d0de);*/
     color: #ddffd9ff;
     border-radius: 12px;
     margin: 10px  10px 10px 10px ;
+    /* top|right|bottom|left */
+    padding: 5px 0px 5px 0px;
+    text-align: center;
 }
 
 .bi-stars {
@@ -51,47 +56,42 @@ h2{
     font-size: 16px;
 }
 
+
 h3{
     font-size: 25px;
-    color: red;
     text-align: left;
-    margin-left: 20px;
-}
+}    
 
 .card {
     font-family: "Atkinson Hyperlegible", sans-serif;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    margin: 10px;
-    background-color: #F8F9F1;
+    /*background-color: #F8F9F1;*/
+    background-color: #F7F2F4;
+    /* arriba|derecha|abajo|izq */
+    margin: 10px 30px 5px 30px ;
 }
 
-.card-content {
-    margin-left: 20px; 
-} 
+.card img {
+    height: auto;
+    opacity: .9;
+    width: 100%;
+  }
+
+
 
 .card-title {
     margin-bottom: 10px;
     margin-top: 10px;
-    border-radius: 13px;
-    text-align: center;
     font-weight: 600;
     color: #552538;
+    font-size: 20px; /* es un h5*/ 
 }
 
-.card-description {
-    font-size: 1rem;
-}
-
-.responsive-img {
-    width: 100px; 
-    height: auto; 
-  }
-
-  .button {
+.button {
     position: relative;
     overflow: hidden;
     height: 40px;
@@ -101,18 +101,24 @@ h3{
     color: #DDFFD9;
     border: none;
     cursor: pointer;
-  }
-  
-  .button:hover::before {
+}
+
+.button:hover::before {
     transform: scaleX(1);
-  }
-  
-  .button-content {
+}
+
+.button-content {
     position: relative;
     z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.button-content l-ping {
+    margin-right: 1px;
   }
-  
-  .button::before {
+
+.button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -123,17 +129,50 @@ h3{
     height: inherit;
     border-radius: inherit;
     background: linear-gradient(
-      82.3deg,
-      rgba(191, 95, 125, 1) 40.8%,
-      rgba(128, 51, 76, 1) 94.3%
+        82.3deg,
+        rgba(191, 95, 125, 1) 40.8%,
+        rgba(128, 51, 76, 1) 94.3%
     );
     transition: all 0.475s;
-  }
-  
+}
+
 a {
     text-decoration: none;
     color: #DDFFD9;
     font-weight: 400;
     font-size: medium;
     font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 18px;
+}
+
+.sectionBD {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background-color: #CFC3D5;
+    /* background-color: #D9BFC9; */
+    color: #AA4465;
+    border-radius: 12px;
+    /* arriba|derecha|abajo|izq */
+    margin: 10px 25px 10px 25px ;
+    /* top|right|bottom|left */
+    padding: 5px 0px 5px 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.contentIzq{
+    text-align: justify;
+    /* arriba|derecha|abajo|izq */
+    margin: 10px 25px 10px 25px ;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+footer {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+aside {
+    position: sticky;
+    top: 5px;
 }
