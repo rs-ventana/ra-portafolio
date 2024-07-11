@@ -69,20 +69,25 @@ h3{
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    /*background-color: #F8F9F1;*/
-    background-color: #F7F2F4;
+    background-color: #ECE7EE;
     /* arriba|derecha|abajo|izq */
     margin: 10px 30px 5px 30px ;
+    /* top|right|bottom|left */
+    padding: 10px 0px 0px 10px;
 }
 
 .card img {
     height: auto;
-    opacity: .9;
     width: 100%;
+    align-items: center;
 }
+
+#img1 {
+    max-height: 80%;
+}
+
 .card button{
     align-items:end;
-
 }
 
 .card-title {
@@ -96,8 +101,9 @@ h3{
 .button {
     position: relative;
     overflow: hidden;
-    height: 40px;
-    padding: 0 20px;
+    height: 35px;
+    /* top|right|bottom|left */
+    padding: 0px 10px 0px 5px;
     border-radius: 20px;
     background: #D08AA1;
     color: #DDFFD9;
