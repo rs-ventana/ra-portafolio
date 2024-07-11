@@ -48,18 +48,18 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-size: 25px;
+    text-align: left;
+}
+
 .bi-stars {
     font-size: 16px;
+    animation: 4s linear 0s infinite alternate sun-rise;
 }
 
 .bi-signpost-fill {
     font-size: 16px;
-}
-
-
-h3{
-    font-size: 25px;
-    text-align: left;
 }    
 
 .card {
@@ -79,9 +79,11 @@ h3{
     height: auto;
     opacity: .9;
     width: 100%;
-  }
+}
+.card button{
+    align-items:end;
 
-
+}
 
 .card-title {
     margin-bottom: 10px;
@@ -172,7 +174,3 @@ footer {
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-aside {
-    position: sticky;
-    top: 5px;
-}
