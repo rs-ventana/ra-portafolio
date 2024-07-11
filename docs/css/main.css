@@ -28,10 +28,16 @@ header{
     font-style: normal;
     font-stretch:ultra-condensed;
     padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 2px dashed;
     font-weight: 600;
     /*color: #DCE1B7; */
-    color: #F7F2F4;
+    /* color: #F7F2F4;*/
+    color: #E3DBE6;
+}
+
+#parr1 {
+    color: #E3DBE6;
 }
 
 h2{
@@ -96,6 +102,9 @@ h3{
     font-weight: 600;
     color: #552538;
     font-size: 20px; /* es un h5*/ 
+}
+.card-text{
+    padding-left: 10px;
 }
 
 .button {
