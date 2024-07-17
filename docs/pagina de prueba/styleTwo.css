@@ -1,0 +1,42 @@
+#principalText {
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+#principalText p {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 500;
+}
+
+#principalText h1 {
+    /*font-family: "Atkinson Hyperlegible", sans-serif;*/
+    /*font-family: "Libre Baskerville", serif; */
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#principalText2 {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    font-size: 100px;
+    text-align: right;
+}
+
+
+#principalText3 {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    font-size: 70px;
+    text-align: left;
+}
+
+.soft{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px;
+    border-top: solid 1px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
