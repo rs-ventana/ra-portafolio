@@ -84,8 +84,21 @@ h3{
     font-weight: 600;
 }
 
-// para version moviles
+/* version movil*/
 @media (max-width: 576px) {
     .specific {
-        padding-top: 40px; 
+        padding-top: 20px; 
     }
+}
+
+@media (max-width: 576px) {
+    #partA  {
+        padding-bottom: 20px; 
+        }
+    }
+
+@media (max-width: 576px) {
+    .specificInit {
+            padding-bottom: 20px; 
+            }
+        }
