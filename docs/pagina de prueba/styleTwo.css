@@ -50,7 +50,8 @@
 }
 
 .sectionTwo h2 {
-    font-family: "Newsreader", serif;
+    /*font-family: "Newsreader", serif; */
+    font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 45px;
     font-weight: 700; 
     text-align: center;
@@ -82,3 +83,9 @@ h3{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 600;
 }
+
+// para version moviles
+@media (max-width: 576px) {
+    .specific {
+        padding-top: 40px; 
+    }
