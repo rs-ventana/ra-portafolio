@@ -47,7 +47,6 @@
 
 .sectionTwo {
     padding-top: 25px;
-    padding-left: 50px;
 }
 
 .sectionTwo h2 {
@@ -76,4 +75,9 @@
 .product i {
     font-size: 70px;
     padding-bottom: 20px;
+}
+
+h3{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 600;
 }
