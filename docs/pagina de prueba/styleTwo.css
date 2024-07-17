@@ -9,7 +9,10 @@
 
 #principalText p {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 500;
+}
+
+#firstP {
+    font-weight: 600; 
 }
 
 #principalText h1 {
@@ -43,19 +46,20 @@
 }
 
 .sectionTwo {
-    font-family: "Newsreader", serif;
-    font-weight: 600; 
-    font-size: 45px;
     padding-top: 25px;
     padding-left: 50px;
+}
 
+.sectionTwo h2 {
+    font-family: "Newsreader", serif;
+    font-size: 45px;
+    font-weight: 700; 
 }
 
 .product{
     padding-left: 30px;
     padding-top: 80px;
     padding-bottom: 80px;
-    font-size: 80px;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -70,5 +74,6 @@
 }
 
 .product i {
+    font-size: 70px;
     padding-bottom: 20px;
 }
