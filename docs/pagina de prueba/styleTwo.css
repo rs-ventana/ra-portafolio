@@ -1,7 +1,10 @@
 #principalText {
-    padding-top: 300px;
-    padding-bottom: 100px;
+    padding-top: 400px;
     padding-left: 30px;
+}
+
+#partA{
+    padding-bottom: 125px;
 }
 
 #principalText p {
@@ -34,16 +37,38 @@
     justify-content: space-around;
     border-bottom: solid 1px;
     border-top: solid 1px ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 35px;
 }
 
-#sectionTwo {
+.sectionTwo {
     font-family: "Newsreader", serif;
     font-weight: 600; 
     font-size: 45px;
     padding-top: 25px;
     padding-left: 50px;
+
 }
 
+.product{
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 80px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.product p {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.product i {
+    padding-bottom: 20px;
+}
