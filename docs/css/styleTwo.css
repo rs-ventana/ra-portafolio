@@ -35,6 +35,16 @@
     font-size: 80px;
 }
 
+@keyframes destello {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#starTwo {
+    animation: destello 6s infinite;
+}
+
 .soft{
     display: flex;
     justify-content: space-around;
@@ -93,8 +103,35 @@ h4 {
     font-weight: 600;
 }
 
+#imgFem{
+    width: 300px;
+    height: auto;
+    padding-bottom: 15px;
+}
 
-/* ----------------- version movil*/
+#textFem{
+    font-size: 24px;
+}
+
+/* en construccion */ 
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fa-gears {
+    display: inline-block;
+    animation: spin 4s linear infinite; 
+}
+
+.fa-solid{
+    padding-bottom: 100px;
+}
+
+
+
+/* ------ version movil*/
 @media (max-width: 576px) {
     .specific {
         padding-top: 20px; 
