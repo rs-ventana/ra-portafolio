@@ -41,6 +41,16 @@
     100% { opacity: 1; }
 }
 
+@keyframes destello2 {
+    0% { opacity: 0.75; }
+    50% { opacity: 0.1; }
+    100% { opacity: 0.75; }
+}
+
+#starOne{
+    animation: destello2 18s infinite;
+}
+
 #starTwo {
     animation: destello 6s infinite;
 }
@@ -54,6 +64,8 @@
     padding-bottom: 25px;
     font-size: 35px;
 }
+
+/* section two */
 
 .sectionTwo {
     padding-top: 25px;
@@ -125,10 +137,18 @@ h4 {
     animation: spin 4s linear infinite; 
 }
 
-.fa-solid{
-    padding-bottom: 100px;
+/* section three*/ 
+.sectionThree {
+    border-top: solid 1px ;
 }
 
+.sectionThree h2 {
+    font-family: "Newsreader", serif; 
+    font-size: 45px;
+    font-weight: 700; 
+    text-align: left;
+    padding-top: 25px;
+}
 
 
 /* ------ version movil*/
