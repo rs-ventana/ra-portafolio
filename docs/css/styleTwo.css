@@ -81,15 +81,29 @@
 
 h3{
     font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 30px;
     font-weight: 600;
 }
 
-/* version movil*/
+h4 {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+/* ----------------- version movil*/
 @media (max-width: 576px) {
     .specific {
         padding-top: 20px; 
     }
 }
+
+@media (max-width: 576px) {
+    #principalText  {
+        padding-top: 200px; 
+        }
+    }
 
 @media (max-width: 576px) {
     #partA  {
