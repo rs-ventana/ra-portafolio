@@ -73,8 +73,11 @@
 }
 
 /* product section */
+/*  producto pero con  proyectos*/
+
 .product{
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 80px;
     padding-bottom: 80px;
     align-content: center;
@@ -118,6 +121,14 @@
     text-align: center;
     color: var(--colH);
 }
+/* .cardP {
+    padding-left: 5px;} */
+
+/* #proyectosSection {
+    border: solid var(--colH);
+    margin-left: 2px;
+    margin-right: 2px;
+} */
 
 h4 {
     font-family: "Atkinson Hyperlegible", sans-serif;
@@ -132,10 +143,18 @@ h4 {
     padding-bottom: 15px;
 }
 
+#imgPok {
+    width: auto;
+    height: 180px;
+    padding-bottom: 15px;
+
+}
+
 .textProd{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 22px;
     color: var(--colP);
+    padding-bottom: 10px;
 }
 
 /* en construccion */ 
@@ -168,9 +187,8 @@ h4 {
     color: var(--colH);
 }
 
-.sectionThree  p {
+#contact  p {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    align-items: center;
     font-size: 24px;
     color: var(--colP);
 }
@@ -184,15 +202,27 @@ h4 {
     color: var(--colP);
 }
 
+.textContact {
+    font-weight: 700;
+}
+
+#linkGit{
+    color: var(--colLink);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#textEmail {
+    color: var(--colLink);
+    font-weight: 500;
+
+}
+
 hr{
     border-top: solid 3px ;
     border-radius: 3px;
     border-color: var(--colB);
 }
-
-/* a {
-    color: var(--colLink);
-} */
 
 .button {
     position: relative;
@@ -249,10 +279,11 @@ a {
 }
 
 
+
 /* ------ version movil*/
 @media (max-width: 576px) {
     .specific {
-        padding-top: 20px; 
+        padding-top: 15px; 
     }
 }
 
@@ -273,6 +304,18 @@ a {
         padding-bottom: 20px; 
         padding-right: 20px;
         }
+}
+
+@media (max-width: 576px)  {
+    #contact p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px)  {
+    #linkGit {
+        font-size: 20px;
+    }
 }
 
 
