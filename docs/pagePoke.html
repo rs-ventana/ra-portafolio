@@ -37,16 +37,18 @@
                     <p id = "notaEjemplo">
                         prueba con dragonite (149)
                     </p>
+
                     <img id = "imgDra" src="./assets/dragonite.svg" alt="imagen de dragonite">
+                    <br><br>
+                    <form action="" onsubmit="searchPokemon(event)" >
+                        <input type="text" name="pokemon" autocomplete="off" placeholder="Escribe aquí"> 
+                    </form>
 
                 </div>
 
             </div>
     
             <div class = "col-sm-8 col-lg-8">
-                <form action="" onsubmit="searchPokemon(event)" >
-                    <input type="text" name="pokemon" autocomplete="off" placeholder="Escribe aquí"> 
-                </form>
                 <div data-poke-card class="poke-card">
                     <div data-poke-name>Pokédex</div>
                     <div data-poke-img-container class="img-container">
@@ -60,7 +62,16 @@
             </div>
 
         </div>
+        <br><br><br><br><br>
+        <hr>
+        <footer>
+            <P class = "textFooter">
+                El pokédex fue elaborado con la información de PokéApi, disponible aquí: <a href="https://pokeapi.co/">https://pokeapi.co/</a>
+            </P>
+        </footer>
     </div>
+
+    
 
 
 </body>
