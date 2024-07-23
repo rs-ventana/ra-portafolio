@@ -109,3 +109,7 @@ a {
     --colB: #E7C6D2;
     --colLink: #D7907B;
 }
+
+nav a {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
