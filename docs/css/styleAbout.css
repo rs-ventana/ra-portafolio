@@ -25,10 +25,12 @@ h2 {
     font-weight: 700;
     font-size: 38px;
     font-family: "Newsreader", serif; 
+    color: var(--colH);
 }
 
 p {
     font-size: 26px;
+    color: var(--colP);
 }
 
 #textL{
@@ -123,18 +125,21 @@ a {
 @media (max-width: 576px)  {
     #textL h2 {
         font-size: 34px;
+
     }
 }
 
 @media (max-width: 576px)  {
-    #textL h2{
+    #textR h2{
         font-size: 34px;
+        text-align: right;
     }
 }
 
 @media (max-width: 576px)  {
     #textL p {
         font-size: 23px;
+        padding-bottom: 15px;
     }
 }
 
@@ -142,7 +147,6 @@ a {
     #textR p{
         font-size: 23px;
         padding-left: 5px;
-
     }
 }
 
