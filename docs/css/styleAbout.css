@@ -1,0 +1,122 @@
+/* --- paleta de colores ---*/
+:root{
+    --fondo: #F9F1F4;
+    --colH: #3A1823;
+    --colP: #493140;
+    --colB: #E7C6D2;
+    --colLink: #D7907B;
+    --fondoAbout: #F0E5E9;
+}
+
+body{
+    background-color: var(--fondo);
+}
+
+#top {
+    background-color: var(--fondoAbout);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* display: flex;
+    justify-content: space-around; */
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 38px;
+    font-family: "Newsreader", serif; 
+}
+
+p {
+    font-size: 30px;
+}
+
+#textL{
+    text-align: right;
+}
+
+#textR {
+    text-align: left;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+
+/* section three*/ 
+.sectionThree {
+    border-top: solid 3px ;
+    border-radius: 3px;
+    border-color: var(--colB);
+    padding-left: 10%;
+}
+
+.sectionThree h2 {
+    font-family: "Newsreader", serif; 
+    font-size: 45px;
+    font-weight: 700; 
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    color: var(--colH);
+
+}
+
+#contact  p {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 24px;
+    color: var(--colP);
+    padding-left: 15%;
+}
+
+.contactoSection {
+    padding-left: 12%;
+}
+
+#contact i {
+    font-size: 25px;
+    color: var(--colP);
+}
+
+.textContact {
+    font-weight: 700;
+}
+
+#linkGit{
+    color: var(--colLink);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#textEmail {
+    color: var(--colLink);
+    font-weight: 500;
+
+}
+
+hr{
+    border-top: solid 3px ;
+    border-radius: 3px;
+    border-color: var(--colB);
+}
+
+a {
+    text-decoration: none;
+    color: #DDFFD9;
+    font-weight: 400;
+    font-size: medium;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 18px;
+}
+
+
+@media (max-width: 576px)  {
+    #contact p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px)  {
+    #linkGit {
+        font-size: 20px;
+    }
+}
