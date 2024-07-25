@@ -125,7 +125,6 @@ a {
 @media (max-width: 576px)  {
     #textL h2 {
         font-size: 34px;
-
     }
 }
 
@@ -146,7 +145,6 @@ a {
 @media (max-width: 576px)  {
     #textR p{
         font-size: 23px;
-        padding-left: 5px;
     }
 }
 
